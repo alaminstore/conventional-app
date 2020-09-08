@@ -14,3 +14,5 @@ In the project directory, you can run:
 <image  src="https://github.com/alaminstore/conventional-app/blob/master/src/screenshot/Edit_user.png"/>
 4.View data individually
 <image  src="https://github.com/alaminstore/conventional-app/blob/master/src/screenshot/View_user.png"/>
+5. The local Server
+<image  src="https://github.com/alaminstore/conventional-app/blob/master/src/screenshot/Create_server.png"/>
