@@ -17,6 +17,7 @@ Then,
 
 In the project directory, you can run:
 ### `npm run start:dev`
+for checking the server, localhost:3003/users
 
 ## Screenshot
 1. Fetch Data after creating local server
