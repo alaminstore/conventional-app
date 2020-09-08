@@ -1,26 +1,51 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./Navber.css";
+import { Link, NavLink } from "react-router-dom";
 
-function App() {
+const Navbar = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
+        <Link className="navbar-brand" exact to="/">
+          <i class="fab fa-react">Al-Amin</i>
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-export default App;
+        <div className="collapse navbar-collapse mx-auto">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/">
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/about">
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/contact">
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+
+        <Link className="btn btn-outline-light" to="/users/add">
+          Add User
+        </Link>
+      </div>
+    </nav>
+  );
+};
+export default Navbar;
