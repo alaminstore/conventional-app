@@ -17,7 +17,7 @@ Then,
 "json-server": "json-server --watch db.json --port 3003",
 "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
 
-
+In the project directory, you can run:
 ### `npm run start:dev`
 
 ## Screenshot
