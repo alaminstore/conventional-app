@@ -3,7 +3,7 @@
 
 In the project directory, you can run:
 
-Initially need to install some package to run this application.
+#### Initially need to install some package to run this application.
 <ul>
   <li>npm install axios</li>
   <li>npm install concurrently</li>
@@ -12,6 +12,11 @@ Initially need to install some package to run this application.
   <li>npm install bootstrap</li>
 </ul>
 Then,
+1. create a file name: db.json
+2. Go to: package.json and past those in the script.
+"json-server": "json-server --watch db.json --port 3003",
+"start:dev": "concurrently \"npm start\" \"npm run json-server\"",
+
 
 ### `npm run start:dev`
 
