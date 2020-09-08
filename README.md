@@ -3,6 +3,16 @@
 
 In the project directory, you can run:
 
+Initially need to install some package to run this application.
+<ul>
+  <li>npm install axios</li>
+  <li>npm install concurrently</li>
+  <li>npm install json-server</li>
+  <li>npm install react-router-dom</li>
+  <li>npm install bootstrap</li>
+</ul>
+Then,
+
 ### `npm run start:dev`
 
 ## Screenshot
