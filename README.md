@@ -1,8 +1,6 @@
 
 ## User List Management
 
-In the project directory, you can run:
-
 #### Initially need to install some package to run this application.
 <ul>
   <li>npm install axios</li>
