@@ -9,15 +9,15 @@
   <li>npm install react-router-dom</li>
   <li>npm install bootstrap</li>
 </ul>
-Then,
-1. create a file name: db.json
-2. Go to: package.json and past those in the script.
-"json-server": "json-server --watch db.json --port 3003",
-"start:dev": "concurrently \"npm start\" \"npm run json-server\"",
+Then, <br/>
+1. create a file name: db.json<br/>
+2. Go to: package.json and past those in the script.<br/>
+"json-server": "json-server --watch db.json --port 3003",<br/>
+"start:dev": "concurrently \"npm start\" \"npm run json-server\"",<br/>
 
-In the project directory, you can run:
-### `npm run start:dev`
-for checking the server, localhost:3003/users
+In the project directory, you can run:<br/>
+### `npm run start:dev`<br/>
+for checking the server, localhost:3003/users<br/>
 
 ## Screenshot
 1. Fetch Data after creating local server
